@@ -138,3 +138,4 @@ resource "huaweicloud_compute_eip_associate" "associated4" {
   public_ip   = huaweicloud_vpc_eip.demo-iac-ip4.address
   instance_id = huaweicloud_compute_instance.demo-iac-vaultnode.id
 }
+
